@@ -15,14 +15,14 @@ android {
         versionName "1.0.0"
     }
 
-    signingConfigs {
-        release {
-            keyAlias 'yy'
-            keyPassword '7758258000'
-            storeFile file('E:\\Android\\meyhuan.jks')
-            storePassword '7758258000'
-        }
-    }
+//    signingConfigs {
+//        release {
+//            keyAlias 'yy'
+//            keyPassword '7758258000'
+//            storeFile file('E:\\Android\\meyhuan.jks')
+//            storePassword '7758258000'
+//        }
+//    }
 
 
     buildTypes {
