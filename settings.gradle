@@ -1,0 +1,1 @@
+include ':app', ':library', ':sociallib', ':cn_baduanjin', ':SMSSDK-2.0.2', ':umengfb', ':sharesdk'

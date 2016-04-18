@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="oms.mmc.fortunetelling.fate.lib.ui.EditShareActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/edit_share_photo_select_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:src="@drawable/ic_share_select_photo"/>
+
+        <TextView
+            android:id="@+id/edit_share_content_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColorDark"
+            android:layout_gravity="center_vertical"
+            android:textSize="20dp"
+            android:text="@string/edit_share_content"/>
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/edit_share_ranking_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColorGray"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="20dp"
+            android:textSize="16dp"
+            android:text="8"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/edit_share_img"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/ic_register_bg"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_share_checked"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/edit_share_complete_times"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/textColorGreenLight"
+            android:text="@string/edit_share_complete_times"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/edit_share_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:padding="13dp"
+        android:textSize="25sp"
+        android:text="@string/share"
+        android:background="@drawable/btn_green_bg_no_corner"/>
+
+</LinearLayout>

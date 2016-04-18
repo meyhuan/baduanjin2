@@ -1,0 +1,81 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="oms.mmc.fortunetelling.fate.lib.ui.MainFragment">
+
+    <FrameLayout
+        android:id="@+id/container_start_video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:adjustViewBounds="true"
+            android:background="#5DC4B5"
+            android:scaleType="fitXY"
+            android:src="@drawable/video_start" />
+
+        <Button
+            android:id="@+id/main_movement_start_btn"
+            android:layout_width="120dp"
+            android:layout_height="33dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="70dp"
+            android:background="@drawable/ic_action_start"
+            android:gravity="center"
+            android:text="@string/main_movement_start"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="20dp"
+            android:text="@string/main_movement_tip"
+            android:textColor="@color/textColorYellowLight"
+            android:textSize="15sp" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/video_des_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/main_movement_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:clickable="false"
+            android:text="Part1:预备式"
+            android:textColor="@color/colorPrimary"
+            android:visibility="gone"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/main_movement_break_btn"
+            android:layout_width="120dp"
+            android:layout_height="33dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/ic_action_break"
+            android:gravity="center"
+            android:text="@string/main_movement_break"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+
+</FrameLayout>

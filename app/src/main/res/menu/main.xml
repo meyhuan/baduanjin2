@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_notification"
+        android:orderInCategory="100"
+        android:icon="@drawable/main_notification"
+        android:title="@string/main_notification"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_rank"
+        android:orderInCategory="90"
+        android:icon="@drawable/main_rank"
+        android:title="@string/main_rank"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_jifen"
+        android:orderInCategory="80"
+        android:icon="@drawable/main_jifen"
+        android:visible="false"
+        android:title="@string/main_jifen"
+        app:showAsAction="ifRoom" />
+</menu>

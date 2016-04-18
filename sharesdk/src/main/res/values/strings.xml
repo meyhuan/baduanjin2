@@ -1,0 +1,65 @@
+<resources>
+
+    <string name="app_name">ShareSDK第三方平台登錄示例</string>
+
+    <integer name="app_version_code">2</integer>
+
+    <string name="app_version">2.0.0</string>
+    <string name="proj_name">ShareSDK_TPL</string>
+    <string name="share_sdk">Share SDK</string>
+    <string name="login_with_msg">用手機號碼登錄</string>
+    <string name="login_with_weixin">用微信登錄</string>
+    <string name="login_with_sina_weibo">用新浪微博登錄</string>
+    <string name="login_with_qzone">用QQ空間登錄</string>
+    <string name="login_with_other_plat">其他帳號登錄</string>
+    <string name="userid_found">用戶信息已存在，正在跳轉登錄操作…</string>
+    <string name="logining">使用%s帳號登錄中…</string>
+    <string name="auth_cancel">授權操作已取消</string>
+    <string name="auth_error">授權操作遇到錯誤，請閱讀Logcat輸出; \n 如微信登錄，需要微信客戶端</string>
+    <string name="auth_complete">授權成功，正在跳轉登錄操作…</string>
+    <string name="if_register_needed">如果您需要注冊功能…</string>
+    <string name="after_auth">一般來說第三方登錄時，第三方平台已經爲您完成用戶身份校驗，您可以放心讓用戶登錄。\n\n但如果您需要判斷用戶是否爲新用戶，可以在授權操作完成後，將用戶的信息通過字段“HashMap userInfo”攜帶給login方法。客戶端通過“String userId”執行登錄請求，如果服務端判定此userId爲未注冊用戶，可以將userInfo發送給注冊接口，獲取用戶在此平台上的昵稱、頭像等數據，然後執行注冊</string>
+
+    <string name="tpl_ok">確定</string>
+    <string name="tpl_cancel">取消</string>
+
+    <string name="tpl_key_user_icon">頭像</string>
+    <string name="tpl_key_user_name">昵稱</string>
+    <string name="tpl_key_user_gender">性別</string>
+    <string name="tpl_key_user_note">備注</string>
+
+    <string name="tpl_value_user_name">昵稱</string>
+    <string name="tpl_value_user_gender">性別</string>
+    <string name="tpl_value_user_note">請填寫備注信息</string>
+
+    <string name="tpl_sign_user_info">用戶信息</string>
+    <string name="tpl_sign_up">注冊</string>
+    <string name="tpl_girl">女</string>
+    <string name="tpl_boy">男</string>
+
+    <string name="tpl_camera">拍照</string>
+    <string name="tpl_picture">從相冊獲取</string>
+
+    <string name="tpl_change_user_name_title">更改名字</string>
+    <string name="tpl_change_user_note_title">更改備注</string>
+    <string name="tpl_input_user_name_hint">好名字可以讓你的朋友更容易記住你</string>
+    <string name="tpl_input_user_note_hint">自定義備注信息，給你帶來更多吸引</string>
+
+    <string name="tpl_no_sdcard">sdcard 卡不存在</string>
+    <string name="tpl_msg_login_hint">請輸入手機號碼</string>
+    <string name="tpl_verify_code_hint">請輸驗證碼</string>
+    <string name="tpl_get_verify_code">獲取驗證碼</string>
+    <string name="tpl_send_verify_code">檢驗驗證碼</string>
+    <string name="signup_success">注冊成功</string>
+    <string name="signup_failed">注冊失敗</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_wx">微信</string>
+    <string name="login_qq">QQ</string>
+    <string name="login_sina">新浪微博</string>
+
+    <string name="login_other_way">其他方式登陸</string>
+
+
+</resources>

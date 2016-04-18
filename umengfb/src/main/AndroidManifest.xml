@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sample.baselib.meyhuan.com.umengfb">
+
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true">
+
+
+
+    </application>
+
+</manifest>

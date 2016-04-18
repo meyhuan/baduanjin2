@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="color_array">
+    <item>@color/red</item>
+    <item>@color/green</item>
+    <item>@color/blue</item>
+    <item>@color/yellow</item>
+  </integer-array>
+    <color name="black_de">#DE000000</color>
+    <color name="blue">#00F</color>
+    <color name="card_background">#ffffff</color>
+    <color name="card_shadow">#10000000</color>
+    <color name="colorAccent">#EEB35E</color>
+    <color name="colorPrimary">#25A79B</color>
+    <color name="colorPrimaryDark">#1D867A</color>
+    <color name="colorPrimaryLight">#e0f3f2</color>
+    <color name="green">#0F0</color>
+    <color name="lite_blue">#ff359ff2</color>
+    <color name="red">#F00</color>
+    <color name="white">#FFF</color>
+    <color name="windowBackground">#E1F2F2</color>
+    <color name="window_background">#00000000</color>
+    <color name="yellow">#FF0</color>
+    <declare-styleable name="ForegroundImageView"><attr name="android:foreground"/></declare-styleable>
+    <declare-styleable name="ForegroundLayout"><attr name="android:foreground"/><attr name="android:foregroundInsidePadding"/><attr name="android:foregroundGravity"/></declare-styleable>
+    <declare-styleable name="StarterLoadingLayout"><attr format="reference" name="loadingLayoutRes"/><attr format="reference" name="errorLayoutRes"/><attr format="reference" name="emptyLayoutRes"/><attr format="reference" name="contentLayoutRes"/><attr format="dimension" name="loadingProgressBarWidth"/><attr format="dimension" name="loadingProgressBarHeight"/><attr format="color" name="loadingBackgroundColor"/><attr format="reference" name="emptyImage"/><attr format="dimension" name="emptyImageWidth"/><attr format="dimension" name="emptyImageHeight"/><attr format="dimension" name="emptyTitleTextSize"/><attr format="reference" name="emptyTitleText"/><attr format="reference" name="emptySubtitleText"/><attr format="dimension" name="emptySubtitleTextSize"/><attr format="color" name="emptyTitleTextColor"/><attr format="color" name="emptySubtitleTextColor"/><attr format="color" name="emptyBackgroundColor"/><attr format="reference" name="errorImage"/><attr format="dimension" name="errorImageWidth"/><attr format="dimension" name="errorImageHeight"/><attr format="reference" name="errorTitleText"/><attr format="reference" name="errorSubtitleText"/><attr format="dimension" name="errorTitleTextSize"/><attr format="dimension" name="errorSubtitleTextSize"/><attr format="color" name="errorTitleTextColor"/><attr format="color" name="errorSubtitleTextColor"/><attr format="color" name="errorBackgroundColor"/><attr format="reference" name="buttonBackground"/><attr format="color" name="buttonTextColor"/><attr format="reference" name="buttonText"/><attr format="enum" name="viewState"><enum name="content" value="0"/><enum name="error" value="1"/><enum name="empty" value="2"/><enum name="loading" value="3"/></attr></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="starter_divider_insets">0.2dp</dimen>
+    <item name="container_starter_content" type="id"/>
+    <item name="container_starter_loading_empty_error" type="id"/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">MaterialDialog</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="starter_button_placeholder">Try Again</string>
+    <string name="starter_empty_subtitle_placeholder">We couldn\'t find anything. Tap the button to take your first image</string>
+    <string name="starter_empty_title_placeholder">Nothing Here</string>
+    <string name="starter_error_subtitle_placeholder">We could not establish a connection with our servers. Please try again when you are connected to the internet.</string>
+    <string name="starter_error_title_placeholder">No Connection</string>
+    <string name="starter_loadingmore">正在加载更多...</string>
+    <string name="starter_loadingmore_failure">出问题了</string>
+    <string name="starter_loadingmore_more">查看更多</string>
+    <string name="starter_loadingmore_nomore">没有更多数据</string>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="ProgressLoadingTheme" parent="Base.Theme.AppCompat.Light.Dialog">
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:windowCloseOnTouchOutside">false</item>
+    <item name="android:backgroundDimEnabled">true</item>
+  </style>
+</resources>

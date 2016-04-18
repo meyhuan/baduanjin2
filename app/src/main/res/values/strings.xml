@@ -1,0 +1,191 @@
+<resources>
+    <string name="app_name">健身八段錦</string>
+    <string name="cn_app_name">健身八段錦</string>
+
+    <string name="navigation_drawer_open">打開側邊欄</string>
+    <string name="navigation_drawer_close">關閉側邊欄</string>
+
+    <string name="action_settings">設置</string>
+
+
+    <string name="activity_name_notify">鍛煉提醒</string>
+    <string name="activity_name_notify_add">新增提醒</string>
+    <string name="activity_name_notify_modify">修改提醒</string>
+    <string name="activity_name_account_setting">賬號設置</string>
+    <string name="activity_name_rank">排名</string>
+    <string name="activity_name_about_app">關于八段錦</string>
+    <string name="activity_name_app">八段錦</string>
+    <string name="activity_name_edit_share">編輯分享</string>
+    <string name="activity_name_movement_break">動作分解</string>
+    <string name="activity_name_movement_continue">繼續鍛煉</string>
+
+
+    <string name="about_baduanjing">關于八段錦</string>
+    <string name="about_us">關于我們</string>
+    <string name="uer_comment">用戶評價</string>
+    <string name="comment">評論</string>
+    <string name="face_back">意見反饋</string>
+    <string name="setting">設置</string>
+    <string name="invite">邀請好友</string>
+    <string name="share">分享</string>
+    <string name="loading">加載中，請稍後..</string>
+    <string name="cancel">取消</string>
+    <string name="copy">複制</string>
+    <string name="success_copy">已經複制到剪切板</string>
+    <string name="confirm">確定</string>
+
+
+    <string name="main_movement_tip">提示：每天堅持鍛煉，調養健康身體</string>
+    <string name="main_movement_break">動作分解</string>
+    <string name="main_movement_start">開始鍛煉</string>
+
+
+    <string name="register_account">注冊賬號</string>
+    <string name="register_input_phone">請輸入手機號</string>
+    <string name="register_input_valid_code">請輸入驗證碼</string>
+    <string name="register_input_password">設置一個密碼</string>
+    <string name="register_input_password_again">再一次輸入密碼</string>
+    <string name="register_show_password">顯示密碼</string>
+    <string name="register_commit">確認注冊</string>
+    <string name="register_send_valid_code">發送驗證碼</string>
+    <string name="register_second">發送驗證碼</string>
+    <string name="register_send_fail">發送驗證碼失敗</string>
+    <string name="register_code_error">驗證碼錯誤</string>
+    <string name="register_send_success">發送驗證碼成功</string>
+
+    <string name="register_input_empty_error">輸入不能爲空</string>
+    <string name="register_input_phone_error">輸入手機號有誤</string>
+    <string name="register_input_pw_error">密碼不能小于6位</string>
+    <string name="register_input_valid_error">輸入驗證碼有誤</string>
+    <string name="register_input_valid_error2">兩次密碼不一致</string>
+    <string name="register_success">注冊成功</string>
+    <string name="register_failed">注冊失敗</string>
+    <string name="register_again">重發</string>
+    <string name="register_change_pw_success">重發</string>
+    <string name="register_change_pw_fail">重發</string>
+
+
+    <string name="forget_pw_name">修改密碼</string>
+    <string name="forget_pw_confirm">確認修改</string>
+    <string name="forget_pw_fail">修改密碼失敗</string>
+    <string name="forget_pw_success">修改密碼成功，請重新登陸</string>
+
+    <string name="login_input_user_name">請輸入用戶名</string>
+    <string name="login_input_password">請輸入密碼</string>
+    <string name="login_phone_register">手機注冊</string>
+    <string name="login">登陸</string>
+    <string name="login_or_register">登陸/注冊</string>
+    <string name="login_forget_password">忘記密碼？</string>
+    <string name="login_other_way">其他方式登陸</string>
+    <string name="login_wx">微信</string>
+    <string name="login_qq">QQ</string>
+    <string name="login_sina">新浪微博</string>
+    <string name="login_success">登陸成功</string>
+    <string name="login_fail">登陸失敗</string>
+    <string name="login_get_user_info_fail">獲取用戶信息失敗</string>
+    <string name="login_get_user_info_success">獲取用戶信息成功</string>
+
+
+    <string name="setting_avatar">頭像</string>
+    <string name="setting_account">賬號</string>
+    <string name="setting_nickname">昵稱</string>
+    <string name="setting_gender">性別</string>
+    <string name="setting_women">女</string>
+    <string name="setting_man">男</string>
+    <string name="setting_gender_unknow">未選</string>
+    <string name="setting_exit_account">退出當前賬號</string>
+    <string name="setting_is_exit_account">是否退出當前賬號？</string>
+    <string name="setting_set_nickname">設置昵稱</string>
+    <string name="setting_input_nickname">輸入昵稱</string>
+    <string name="setting_avatar_select">上傳頭像</string>
+    <string name="setting_form_take_photo">拍照上傳</string>
+    <string name="setting_from_album">圖庫上傳</string>
+    <string name="setting_toast_nick_name_err">輸入的昵稱不能爲空</string>
+    <string name="setting_toast_user_id_not_modify">賬號不可以修改哦</string>
+
+
+    <string name="main_notification">鍛煉提醒</string>
+    <string name="main_rank">排名榜</string>
+    <string name="main_jifen">我的積分</string>
+    <string name="not_login_tip">該功能只有登錄了才能看哦</string>
+
+    <string name="notify_meridiem_ante">上午</string>
+    <string name="notify_meridiem_psot">下午</string>
+    <string name="notify_day_monday">一</string>
+    <string name="notify_day_tuesday">二</string>
+    <string name="notify_day_wednesday">三</string>
+    <string name="notify_day_thursday">四</string>
+    <string name="notify_day_friday">五</string>
+    <string name="notify_day_saturday">六</string>
+    <string name="notify_day_sunday">日</string>
+
+    <string name="notify_more_ten_item_tip">"最多只能設置10個提醒哦"</string>
+    <string name="notify_add_first_tip">"強身健體，堅持鍛煉，一天兩次最佳"</string>
+    <string name="not_login_tip1">登錄後，實時記錄自己的鍛煉過程</string>
+    <string name="not_login_tip2">登錄後，查看八段錦的鍛煉PK排行榜</string>
+    <string name="not_wifi">在wifi聯網下，鍛煉最佳</string>
+
+    <string name="notify_mod_right">確認</string>
+    <string name="notify_mod_delete">刪除</string>
+    <string name="notify_mod_set_time">設置時間</string>
+
+    <string name="alarm_default_label">"健身祛病，八段錦鍛煉提醒"</string>
+    <string name="alarm_every_day">"每天"</string>
+    <string name="alarm_never">"一律不"</string>
+    <string name="alarm_day_concat">"、"</string>
+
+    <string name="complete_dialog_count_tip"><![CDATA[恭喜你完成第<font color="#F6FB69">%1$d</font>次的鍛煉]]></string>
+    <string name="share_content_tip">八段錦-一款新的健身減肥輕運動</string>
+    <string name="share_title_tip"><![CDATA[堅持鍛煉八段錦，我已經完成鍛煉%1$d次，你也來吧！]]></string>
+
+
+    <string name="complete_dialog_add_time">"<![CDATA[+%1$d &nbsp;min ]]>"</string>
+    <string name="complete_dialog_go_rank">"<![CDATA[排行榜 &nbsp;>>]]>"</string>
+    <string name="complete_dialog_close">"關閉"</string>
+    <string name="complete_dialog_share">"分享好友"</string>
+
+    <string name="feedback">意見反饋</string>
+
+    <string name="alarm_dialog_tip1">健身祛病，八段錦鍛煉提醒</string>
+    <string name="alarm_dialog_start">開始</string>
+    <string name="alarm_dialog_close">關閉</string>
+
+    <string name="edit_share_content">"消減失眠棒棒的！"</string>
+    <string name="edit_share_complete_times">"<![CDATA[完成了第<font color="#27A59B">%1$d</font>次八段錦]]>"</string>
+
+    <string name="about_app_title">"【八段錦】"</string>
+    <string name="about_app_content">"\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020八段錦輕運動是由傳統文化整合傳播平台——靈機文化打造的一款中醫養生産品，並獲得香港“亞太中研究院”著名中醫師王德利先生的專業指導，對動作進行專業分解，爲用戶提供權威的動作指導。\n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020八段錦起源于北宋，至今共八百多年的曆史。古人把這套動作比喻爲“錦”，意爲五顔六色，美而華貴！體現其動作舒展優美，視其爲”祛病健身，效果極好，編排精致，動作完美“。\n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020鍛煉八段錦能改善神經體液調節功能和加強血液循環，對腹腔髒器有柔和的按摩作用，對神經系統、心血管系統、消化系統、呼吸系統及運動器官都有良好的調節作用，達到強身健體的功效。練習無需器械，無需場地，簡單易學，節省時間，作用極其顯著；效果適合于男女老少，可使瘦者健壯，肥者減肥。\n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020八段錦爲傳統醫學中導引按跷中絢麗多彩之瑰寶。一般有八節，錦者，譽其似錦之柔和優美。正如明朝高濂在其所著《遵生八箋》中“八段錦導引法”所講：“子後午前做，造化合乾坤。循環次第轉，八卦是良因。”“錦”字，是由“金”“帛”組成，以表示其精美華貴。除此之外，“錦”字還可理解爲單個導引術式的彙集，如絲錦那樣連綿不斷，是一套完整的健身方法。"</string>
+
+    <string name="pw_error">密碼錯誤</string>
+    <string name="pw_is_not_empty">密碼不能爲空</string>
+    <string name="user_not_exist">用戶不存在</string>
+    <string name="user_existed">用戶已存在</string>
+    <string name="user_name_not_empty">用戶名不能爲空</string>
+    <string name="user_reset_fail">設置失敗</string>
+    <string name="user_reset_success">設置成功</string>
+    <string name="net_error">網絡錯誤</string>
+    <string name="json_format_error">數據解析錯誤</string>
+    <string name="unknow_error">未知錯誤</string>
+    <string name="un_stall_wx">請安裝微信客戶端</string>
+    <string name="exit_tip">是否退出應用？</string>
+    <string name="minute">分鍾</string>
+    <string name="not_set_alarm">未設置八段錦鍛煉提醒</string>
+    <string name="network_unavailable">網絡未連接，請檢查後重試！</string>
+    <string name="share_more">更多</string>
+
+    <string name="my_rank"><![CDATA[我的排名：<font color="#F8FA9B">%s</font>]]></string>
+
+    <string-array name="days">
+        <item>周日</item>
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

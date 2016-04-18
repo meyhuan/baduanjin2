@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="10dp"
+    tools:context="oms.mmc.fortunetelling.fate.lib.ui.NotificationModifyActivity">
+
+    <RelativeLayout
+        android:id="@+id/notify_mod_time_layout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <oms.mmc.fortunetelling.fate.lib.view.DigitalClock
+            android:id="@+id/notify_item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:baselineAligned="true">
+
+            <TextView
+                android:id="@+id/am_pm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/notify_mod_time_tv"
+                android:text="@string/notify_meridiem_ante"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/timeDisplay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/colorPrimary"
+                android:textSize="45sp"
+                android:text="8:30" />
+
+        </oms.mmc.fortunetelling.fate.lib.view.DigitalClock>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_spinner" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorDivider" />
+
+    </RelativeLayout>
+
+    <CheckBox
+        android:id="@+id/notify_mod_day_check"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/check_box_bg"
+        android:button="@null"
+        android:checked="true" />
+
+    <LinearLayout
+        android:id="@+id/notify_days_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/notify_day_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/notify_day_tv_1"
+                style="@style/NotifyRoundDayBG"
+                android:text="@string/notify_day_monday"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/notify_day_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/notify_day_tv_2"
+                style="@style/NotifyRoundDayBG"
+                android:text="@string/notify_day_tuesday"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/notify_day_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/notify_day_tv_3"
+                style="@style/NotifyRoundDayBG"
+                android:text="@string/notify_day_wednesday"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/notify_day_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/notify_day_tv_4"
+                style="@style/NotifyRoundDayBG"
+                android:text="@string/notify_day_thursday"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/notify_day_5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/notify_day_tv_5"
+                style="@style/NotifyRoundDayBG"
+                android:text="@string/notify_day_friday"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/notify_day_6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/notify_day_tv_6"
+                style="@style/NotifyRoundDayBG"
+                android:text="@string/notify_day_saturday"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/notify_day_7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/notify_day_tv_7"
+                style="@style/NotifyRoundDayBG"
+                android:text="@string/notify_day_sunday"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

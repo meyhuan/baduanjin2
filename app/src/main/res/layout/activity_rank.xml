@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_register_bg"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="oms.mmc.fortunetelling.fate.lib.ui.RankActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_rank_grey_transparent"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/rank_my_avatar_img"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/rank_default_avatar"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/rank_my_avatar_img"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp">
+
+            <TextView
+                android:id="@+id/rank_my_nickname_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:text="Vicky10252"/>
+
+            <ImageView
+                android:id="@+id/rank_my_heart_img"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/main_notification"
+                android:layout_below="@id/rank_my_nickname_tv"
+                android:layout_marginTop="8dp"/>
+            <TextView
+                android:id="@+id/rank_my_total_time_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColorYellowLight"
+                android:layout_alignBottom="@id/rank_my_heart_img"
+                android:layout_toRightOf="@id/rank_my_heart_img"
+                android:layout_marginLeft="8dp"
+                android:textSize="16sp"
+                tools:text="20:25:12"/>
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/rank_my_ranking_num_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            tools:text="我的排名:10"/>
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rank_recycler_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
