@@ -26,98 +26,98 @@
     <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
 
     <application>
-        <activity
-            android:name=".ui.LaunchActivity"
-            android:screenOrientation="portrait"
-            android:label="@string/cn_app_name"
-            android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+        <!--<activity-->
+            <!--android:name=".ui.LaunchActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:label="@string/cn_app_name"-->
+            <!--android:theme="@style/AppTheme.NoActionBar">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN"/>-->
 
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".ui.RegisterByPhoneActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity
-            android:name=".ui.LoginActivity"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity
-            android:name=".ui.SettingActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity
-            android:name=".ui.NotificationActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity
-            android:name=".ui.NotificationModifyActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity
-            android:name=".ui.RankActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity
-            android:name=".ui.EditShareActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity
-            android:name=".ui.ActionBreakActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity
-            android:name=".ui.ForgetPWActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity
-            android:name=".ui.ActionBreakIndexActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity
-            android:name=".ui.AboutAppActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity
-            android:name=".ui.AlarmActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.Transparent"/>
-        <activity
-            android:name=".ui.FeedbackActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity
-            android:name="com.smartydroid.android.starter.kit.app.WebActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity
-            android:name="com.umeng.fb.ConversationActivity"
-            android:screenOrientation="portrait">
-        </activity>
-        <activity
-            android:name=".ui.GuideActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
-        <!-- *************************    related to notify START **************************** -->
-        <provider
-            android:name=".alarm.AlarmProvider"
-            android:authorities="oms.mmc.fortunetelling.fate.lib.alarm"
-            android:exported="false"/>
+                <!--<category android:name="android.intent.category.LAUNCHER"/>-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+        <!--<activity-->
+            <!--android:name=".ui.RegisterByPhoneActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:theme="@style/AppTheme.NoActionBar"/>-->
+        <!--<activity-->
+            <!--android:name=".ui.LoginActivity"-->
+            <!--android:launchMode="singleTop"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:theme="@style/AppTheme.NoActionBar"/>-->
+        <!--<activity-->
+            <!--android:name=".ui.SettingActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:theme="@style/AppTheme.NoActionBar"/>-->
+        <!--<activity-->
+            <!--android:name=".ui.NotificationActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:theme="@style/AppTheme.NoActionBar"/>-->
+        <!--<activity-->
+            <!--android:name=".ui.NotificationModifyActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:theme="@style/AppTheme.NoActionBar"/>-->
+        <!--<activity-->
+            <!--android:name=".ui.RankActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:theme="@style/AppTheme.NoActionBar"/>-->
+        <!--<activity-->
+            <!--android:name=".ui.EditShareActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:theme="@style/AppTheme.NoActionBar"/>-->
+        <!--<activity-->
+            <!--android:name=".ui.ActionBreakActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:theme="@style/AppTheme.NoActionBar"/>-->
+        <!--<activity-->
+            <!--android:name=".ui.ForgetPWActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:theme="@style/AppTheme.NoActionBar"/>-->
+        <!--<activity-->
+            <!--android:name=".ui.ActionBreakIndexActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:theme="@style/AppTheme.NoActionBar"/>-->
+        <!--<activity-->
+            <!--android:name=".ui.AboutAppActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:theme="@style/AppTheme.NoActionBar"/>-->
+        <!--<activity-->
+            <!--android:name=".ui.AlarmActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:theme="@style/AppTheme.Transparent"/>-->
+        <!--<activity-->
+            <!--android:name=".ui.FeedbackActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:theme="@style/AppTheme.NoActionBar"/>-->
+        <!--<activity-->
+            <!--android:name="com.smartydroid.android.starter.kit.app.WebActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:theme="@style/AppTheme.NoActionBar"/>-->
+        <!--<activity-->
+            <!--android:name="com.umeng.fb.ConversationActivity"-->
+            <!--android:screenOrientation="portrait">-->
+        <!--</activity>-->
+        <!--<activity-->
+            <!--android:name=".ui.GuideActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:theme="@style/AppTheme.NoActionBar">-->
+        <!--</activity>-->
+        <!--&lt;!&ndash; *************************    related to notify START **************************** &ndash;&gt;-->
+        <!--<provider-->
+            <!--android:name=".alarm.AlarmProvider"-->
+            <!--android:authorities="oms.mmc.fortunetelling.fate.lib.alarm"-->
+            <!--android:exported="false"/>-->
 
-        <receiver
-            android:name=".alarm.AlarmReceiver"
-            android:process=":remote">
-            <intent-filter>
-                <action android:name="oms.mmc.fortunetelling.fate.baduanjin.alarm.ALARM_ALERT"/>
-            </intent-filter>
-        </receiver>
+        <!--<receiver-->
+            <!--android:name=".alarm.AlarmReceiver"-->
+            <!--android:process=":remote">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="oms.mmc.fortunetelling.fate.baduanjin.alarm.ALARM_ALERT"/>-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
 
-        <!-- *************************    related to notify START **************************** -->
+        <!--&lt;!&ndash; *************************    related to notify START **************************** &ndash;&gt;-->
 
 
         <!-- umengAppKey，replace to yours -->
