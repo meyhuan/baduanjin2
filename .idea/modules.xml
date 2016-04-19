@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/sharesdk/sharesdk.iml" filepath="$PROJECT_DIR$/sharesdk/sharesdk.iml" />
       <module fileurl="file://$PROJECT_DIR$/sociallib/sociallib.iml" filepath="$PROJECT_DIR$/sociallib/sociallib.iml" />
       <module fileurl="file://$PROJECT_DIR$/umengfb/umengfb.iml" filepath="$PROJECT_DIR$/umengfb/umengfb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/umengpush/umengpush.iml" filepath="$PROJECT_DIR$/umengpush/umengpush.iml" />
     </modules>
   </component>
 </project>
